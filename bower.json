@@ -1,5 +1,6 @@
 {
   "name": "jquery-code-scanner",
+  "version": "0.0.1",
   "homepage": "https://github.com/Glideh/jquery-code-scanner",
   "authors": [
     "Pierre de LESPINAY <gprod.net+github@gmail.com>"
@@ -24,5 +25,5 @@
   ],
   "dependencies": {
     "jquery": ">=1.5"
-  },
+  }
 }
