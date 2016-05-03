@@ -17,7 +17,7 @@ $.fn.codeScanner = function (options) {
             setTimeout(function () {
                 if (chars.length >= 10) {
                     var barcode = chars.join('');
-                    onscan(self, barcode);
+                    onScan(self, barcode);
                 }
                 chars = [];
                 pressed = false;
