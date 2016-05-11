@@ -2,6 +2,8 @@
 
 This is a jquery plugin implementation of the simple and well working code snippet from [Deadosaurus blog](http://www.deadosaurus.com/detect-a-usb-barcode-scanner-with-javascript/)
 
+You can [try the plugin](http://cscan.gprod.net) and see if it works with your code reader
+
 ## Installation
 
 ```bash
