@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Jquery Code Scanner - Demo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="jquery-code-scanner.js"></script>
+    <style>
+body {
+    background-color: #444;
+    font-family: "Century Gothic", Arial, sans-serif;
+}
+.container {
+    margin-top: 200px;
+}
+.control-label {
+    color: #eee;
+}
+    </style>
+    <script>
+$(function () {
+    $('#code-scan').codeScanner();
+});
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+        <form class="form-horizontal col-sm-offset-4 col-sm-4">
+            <div class="form-group">
+                <label class="control-label col-xs-6" for="code-scan">Scanned code</label>
+                <div class="col-xs-6">
+                    <input class="form-control" id="code-scan" type="text" />
+                </div>
+            </div>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
