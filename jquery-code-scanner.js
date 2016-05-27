@@ -40,8 +40,8 @@
     $.fn.codeScanner.defaults = {
         minEntryChars: 8,
         maxEntryTime: 100,
-        onScan: function (element, barcode) {
-            $(element).val(barcode);
+        onScan: function ($element, barcode) {
+            $element.val(barcode);
         }
     };
 })(jQuery);
