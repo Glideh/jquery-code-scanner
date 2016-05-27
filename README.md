@@ -37,7 +37,7 @@ Minimum characters entered to be considered as a code reader
 **`maxEntryTime`** _default: 100_  
 Maximum time (in millisecond) to enter the characters to be considered as a code reader
 
-```
+```javascript
 $('#code-scan').codeScanner({
     maxEntryTime: 500,
     minEntryChars: 15
@@ -49,7 +49,7 @@ In this example, if 15 characters are not entered within 50ms, the string will n
 **`onScan`** _default: Function setting the code into the input_  
 This function will be called when thea code is scanned
 
-```
+```javascript
 $('#code-scan').codeScanner({
     onScan: function ($element, code) {
         console.log(code);
