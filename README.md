@@ -28,3 +28,31 @@ $('#code-scan').codeScanner();
 ```
 
 This input will receive any scanned code
+
+## Options
+
+**`minEntryChars`** _default: 8_  
+Minimum characters entered to be considered as a code reader
+
+**`maxEntryTime`** _default: 100_  
+Maximum time (in millisecond) to enter the characters to be considered as a code reader
+
+```
+$('#code-scan').codeScanner({
+    maxEntryTime: 500,
+    minEntryChars: 15
+});
+```
+
+In this example, if 15 characters are not entered within 50ms, the string will not be taken as a scanned code
+
+**`onScan`** _default: Function setting the code into the input_  
+This function will be called when thea code is scanned
+
+```
+$('#code-scan').codeScanner({
+    onScan: function ($element, code) {
+        console.log(code);
+    }
+});
+```
