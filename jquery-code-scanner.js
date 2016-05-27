@@ -5,6 +5,8 @@
         return this.each(function () {
             var pressed = false;
             var chars = [];
+            var $input = $(this);
+
             $(window).keypress(function (e) {
                 var keycode = (e.which) ? e.which : e.keyCode;
                 if ((keycode >= 65 && keycode <= 90) ||
@@ -18,7 +20,7 @@
                     setTimeout(function () {
                         if (chars.length >= settings.minEntryChars) {
                             var barcode = chars.join('');
-                            settings.onScan($(this), barcode);
+                            settings.onScan($input, barcode);
                         }
                         chars = [];
                         pressed = false;
