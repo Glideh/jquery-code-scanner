@@ -47,7 +47,7 @@ $('#code-scan').codeScanner({
 In this example, if 15 characters are not entered within 500ms, the string will not be taken as a scanned code
 
 * `onScan` _default: Function setting the code into the input_  
-This function will be called when thea code is scanned
+This function will be called when a code is scanned
 
 ```javascript
 $('#code-scan').codeScanner({
