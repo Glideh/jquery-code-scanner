@@ -4,6 +4,12 @@ This is a jquery plugin implementation of the simple and well working code snipp
 
 You can [try the plugin](http://cscan.gprod.net) and see if it works with your code reader
 
+## How it works
+
+A handheld scanner is exactly like a keyboard that will quickly enter the sequence of any scanned code.  
+The trick is rely on the speed of entry to suspect a scan.  
+More detail on the previously mentionned blog.
+
 ## Installation
 
 ```bash
