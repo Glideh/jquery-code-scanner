@@ -39,12 +39,12 @@ Maximum time (in millisecond) to enter the characters to be considered as a code
 
 ```javascript
 $('#code-scan').codeScanner({
-    maxEntryTime: 500,
-    minEntryChars: 15
+    maxEntryTime: 500, // milliseconds
+    minEntryChars: 15  // characters
 });
 ```
 
-In this example, if 15 characters are not entered within 50ms, the string will not be taken as a scanned code
+In this example, if 15 characters are not entered within 500ms, the string will not be taken as a scanned code
 
 **`onScan`** _default: Function setting the code into the input_  
 This function will be called when thea code is scanned
