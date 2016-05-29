@@ -1,6 +1,7 @@
 # Jquery Code Scanner
 
-This is a jquery plugin implementation of the simple and well working code snippet from [Deadosaurus blog](http://www.deadosaurus.com/detect-a-usb-barcode-scanner-with-javascript/)
+This is a jquery plugin implementation of the simple and well working code snippet from [Deadosaurus blog](http://www.deadosaurus.com/detect-a-usb-barcode-scanner-with-javascript/).  
+The aim here is to be able to get a scan code from anywhere in a web page.
 
 You can [try the plugin](http://cscan.gprod.net) and see if it works with your code reader
 
